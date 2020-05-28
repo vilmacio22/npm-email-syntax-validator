@@ -1,0 +1,1 @@
+# npm-email-syntax-validator
