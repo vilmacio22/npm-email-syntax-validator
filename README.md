@@ -25,7 +25,7 @@ yarn add email-syntax-validator
 
 ## Usage
 ### Get Method
-#### JavaScript
+ JavaScript
 
 ```javascript
 
@@ -37,7 +37,7 @@ emailValidate("test@email.com"); // true
 
 ### Or
 ### Get Object
-#### JavaScript
+ JavaScript
 
 ```javascript
 
@@ -47,7 +47,7 @@ validator.validate("test@email.com"); // true
 
 ```
 
-#### TypeScript
+ TypeScript
 
 ```typescript
 
@@ -69,7 +69,7 @@ EmailValidator.validate("test@email.com"); // true
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
