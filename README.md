@@ -4,7 +4,7 @@ A simple and fast NPM module to validate an e-mail address.
 <p flex="row">
 <img src="https://img.shields.io/badge/node-v10.15.3-green?style=flat-square" />
 <img src="https://img.shields.io/badge/npm-v6.4.1-blue?style=flat-square" />
-<img src="https://img.shields.io/badge/repo%20size-12.1%20kB-blue?style=flat-square" />
+<img src="https://img.shields.io/badge/repo%20size-173.1%20kB-blue?style=flat-square" />
 </p>
 
 ## Installation
@@ -24,24 +24,11 @@ yarn add email-syntax-validator
 
 
 ## Usage
-### Get Method
  JavaScript
 
 ```javascript
 
-import emailValidate from "email-syntax-validator";
-
-emailValidate("test@email.com"); // true
-
-```
-
-### Or
-### Get Object
- JavaScript
-
-```javascript
-
-var validator = require("email-syntax-validator/obj");
+var validator = require("email-syntax-validator");
 
 validator.validate("test@email.com"); // true
 
@@ -51,7 +38,7 @@ validator.validate("test@email.com"); // true
 
 ```typescript
 
-import * as EmailValidator from 'email-syntax-validator/obj';
+import * as EmailValidator from 'email-syntax-validator';
 
 EmailValidator.validate("test@email.com"); // true
 
@@ -69,7 +56,7 @@ EmailValidator.validate("test@email.com"); // true
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/vilmacio22/npm-email-syntax-validator/blob/master/LICENSE) file for details.
 
 ---
 

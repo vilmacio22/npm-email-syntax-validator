@@ -1,7 +1,7 @@
 {
   "name": "email-syntax-validator",
-  "version": "1.0.0",
-  "description": "Email syntax verify",
+  "version": "1.0.3",
+  "description": "A simple and fast NPM module to validate an e-mail address.",
   "main": "src/index.js",
   "scripts": {
     "test": "jest"
